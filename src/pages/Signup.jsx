@@ -56,7 +56,7 @@ const Signup = () => {
       <div className="relative">
         <img
           src={herobg}
-          className="absolute inset-0 object-cover w-full h-full"
+          className="absolute inset-0 object-cover w-full "
           alt=""
         />
         <div className="relative bg-gray-900 bg-opacity-25">
@@ -77,6 +77,8 @@ const Signup = () => {
 
 
               </div>
+
+              
               <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
                 <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
                   <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
