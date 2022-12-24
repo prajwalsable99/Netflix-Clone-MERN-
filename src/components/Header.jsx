@@ -24,9 +24,8 @@ const Header = () => {
     </Link>
     <nav className=" md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
       <Link to='/' className="mr-5 hover:text-slate-500" >Home</Link>
-      <Link to ='/Shows'className="mr-5 hover:text-slate-500">TV Shows</Link>
-      <Link to='/Movies' className="mr-5 hover:text-slate-500">Movies</Link>
-      <Link to='/newpopular' className="mr-5 hover:text-slate-500" >New & Popular</Link>
+      <Link to='/Movies' className="mr-5 hover:text-slate-500">Genres</Link>
+     
       <Link to='/mylist' className="mr-5 hover:text-slate-500">My list</Link>
     </nav>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
