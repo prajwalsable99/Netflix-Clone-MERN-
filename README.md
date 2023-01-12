@@ -1,5 +1,14 @@
 #output screenshots:
-<img src="/tempsh/Capture1.png" width="128"/>
+<h1>Home page</h1>
+<img src="/tempsh/Capture1.JPG" width="800"/>
+<h1>latest page</h1>
+<img src="/tempsh/Capture2.JPG" width="800"/>
+<h1>genre page</h1>
+<img src="/tempsh/Capture3.JPG" width="800"/>
+<h1>movie tab page</h1>
+<img src="/tempsh/Capture4.JPG" width="800"/>
+<h1>liked movies page</h1>
+<img src="/tempsh/Capture5.JPG" width="800"/>
 
 # Getting Started with Create React App
 
