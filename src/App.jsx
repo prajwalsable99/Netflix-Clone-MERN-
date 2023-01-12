@@ -7,6 +7,7 @@ import Notfound from './pages/Notfound';
 import HomeVideo from './components/HomeVideo';
 import MovieCard from './pages/MovieCard';
 import Movies from './pages/Movies';
+import MyList from './pages/MyList'
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/videoplayer" element={<HomeVideo></HomeVideo>}></Route>
         <Route exact path="/movie_info" element={<MovieCard></MovieCard>}></Route>
         <Route exact path='/Movies' element={<Movies></Movies>}> </Route>
+        <Route exact path='/mylist'element={<MyList></MyList>}></Route>
         <Route exact path='*' element={<Notfound></Notfound>}> </Route>
     </Routes>
     </BrowserRouter>

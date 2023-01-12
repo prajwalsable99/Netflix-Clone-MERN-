@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react'
 import { genres } from '../utils/genreslist';
 import { useState,useEffect } from 'react';
@@ -39,7 +41,7 @@ const Movies = () => {
    <section className='bg-black'>
    {/* <Header></Header> */}
     <div>
-        <select className='example bg-black text-white text-3xl font-normal leading-normal mt-0 mb-2  ' id='selectgen' value={gen.gid} onChange={onchange}>
+        <select className='example mt-2 ml-43 bg-black text-white text-3xl font-normal leading-normal  mb-2  ' id='selectgen' value={gen.gid} onChange={onchange}>
             
       {
           genres.map((genre,k)=>(<option value={genre.id} key={genre.id}>{genre.name}</option>))

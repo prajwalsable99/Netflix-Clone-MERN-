@@ -10,4 +10,4 @@ const HomepageURLS= {
     popular_movies:'https://api.themoviedb.org/3/movie/popular?api_key=af5f6a137e02c292119db472e96cca2b',
     popular_shows:'https://api.themoviedb.org/3/tv/popular?api_key=af5f6a137e02c292119db472e96cca2b&language=en-US&page=1'
 }
-export {API_KEY ,BASE_URL,HomepageURLS};
+export {API_KEY,BASE_URL,HomepageURLS};
