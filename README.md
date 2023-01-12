@@ -1,3 +1,6 @@
+#output screenshots:
+<img src="/tempsh/Capture1.png" width="128"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
